@@ -1,0 +1,27 @@
+<project name="CS349-A0" default="run" basedir=".">
+  <description>
+    Assignment 0 of CS 349, Spring 2017.
+  </description>
+  <!-- set global properties for this build -->
+  <property name="run_class" value="Check"/>
+  <property name="results_file" value="results.txt"/>
+
+  <target name="compile"
+		description="compile the source">
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="." destdir="." includeAntRuntime="false"/>
+  </target>
+
+  <target name="run" depends="compile"
+        description="runs the program">
+    <!-- Run program 'Check' -->
+    <java classname="${run_class}" classpath="."/>
+  </target>
+
+  <target name="clean"
+		description="clean up">
+    <!-- Delete the generated files -->
+    <delete file="${run_class}.class"/>
+    <delete file="${results_file}"/>
+  </target>
+</project>

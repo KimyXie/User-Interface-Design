@@ -1,0 +1,24 @@
+@media (max-width:768px){
+	* {
+		font-size: 8pt;
+	}
+	/*body{
+		font-size: 10pt;
+	}*/
+	h1{
+		font-size: 18pt;
+	}
+	#SelectingTerm{
+		background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+		background-color: white;
+		width: 180px;
+	}
+	#SelectingFilter{
+		background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+		background-color: white;
+		width: 180px;
+	}
+	input{
+		font-size: 10pt;
+	}
+}

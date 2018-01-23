@@ -1,0 +1,192 @@
+/* Update this file with your styling rules. */
+
+* {
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+body {
+	/*background-color: #c0e2d7;*/
+	background: url("./pkg2.png");
+	/*color: #13456d;*/
+	color: #072c67;
+}
+
+h1 {
+	/*color: #13456d;*/
+	color: #072767;
+	/*color: white;*/
+	padding-left: 4%;
+	font-size: 36pt;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #647A8A;
+}
+
+li {
+    float: left;
+    height: 49px;
+
+}
+
+li a {
+    display: block;
+    width: 150px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    height: 49px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+
+}
+
+#SearchBar{
+	/*padding-left: 4%;*/
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+#ChoiceOfTerm{
+	padding-left: 4%;
+	padding-bottom: 2%;
+}
+#SelectingTerm{
+	/*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;*/
+	background-color: white;
+	height: 29px;
+	width: 200px;
+	padding-left: 4%;
+}
+#SelectingFilter{
+	/*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;*/
+	background-color: white;
+	height: 29px;
+	width: 200px;
+	padding-left: 4%;
+}
+#ChoiceOfFilter{
+	padding-bottom: 2%;
+
+}
+#viewContent{
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 2%;
+	
+}
+
+.eating{
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 255, .5)
+	url('./Pacman.gif') 50% 50% no-repeat;
+}
+
+body.loading{
+	overflow: hidden;
+}
+
+body.loading .eating{
+	display: block;
+} 
+
+input{
+	width: 75%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	border-radius: 5px; 
+	font-size: 16px;
+	background-color: white;
+	background-image: url('./searchIcon.png'); 
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+
+}
+.row-label{
+	flex-direction: row;
+	display: flex;
+	font-size:16px;
+	height: auto;
+	border-bottom: inset;
+	border-color: #072c67;
+	margin-bottom: 5px;
+	
+}
+.row{
+	flex-direction: row;
+	display: flex;
+	height: 49px;
+	border-bottom: outset;
+	background-color: #57c0d0;
+	margin-bottom: 5px;
+	
+}
+.termRow{
+	flex-direction: row;
+	display: flex;
+	height: 49px;
+	border-bottom: outset;
+	background-color: #c2cbcb;
+	margin-bottom: 5px;
+	
+}
+
+.subjectView{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+}
+
+.titleView{
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+	width: 70%;
+}
+
+.courseView{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 18%;
+}
+
+.dateView{
+	display: flex;
+	align-items: center;
+	width: 20%;
+}
+
+.startTimeView{
+	display: flex;
+	align-items: center;
+	width: 34%;
+}
+
+.locationView{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 28%;
+}
+
+
+
+
+
+
+
